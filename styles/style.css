@@ -148,7 +148,7 @@
 .button__text {
   position: relative;
   z-index: 1;
-  color: var(--color-text);                    
+  color: var(--color-text);
 }
 
 button:hover .button__text {
@@ -200,39 +200,56 @@ dialog::backdrop {
   block-size: 38px;
 }
 
-.variant_one_image   { 
-  filter: brightness(1.1); 
+.variant_one_image {
+  filter: brightness(1.1);
 }
-.variant_two_image   { 
-  filter: saturate(1.8); 
+
+.variant_two_image {
+  filter: saturate(1.8);
 }
-.variant_three_image { 
-  filter: blur(3px) brightness(1.1); 
+
+.variant_three_image {
+  filter: blur(3px) brightness(1.1);
 }
-.variant_four_image  { 
-  filter: brightness(1.15); 
+
+.variant_four_image {
+  filter: brightness(1.15);
 }
-.variant_five_image  { 
-  filter: contrast(150%); 
+
+.variant_five_image {
+  filter: contrast(150%);
 }
-.variant_six_image   { 
+
+.variant_six_image {
   filter: saturate(1.4);
 }
-.variant_seven_image { 
-  filter: grayscale(1); 
+
+.variant_seven_image {
+  filter: grayscale(1);
 }
-.variant_eight_image { 
-  filter: blur(2px) brightness(1.05) contrast(110%) saturate(180%); 
+
+.variant_eight_image {
+  filter: blur(2px) brightness(1.05) contrast(110%) saturate(180%);
 }
 
 @media (width <= 375px) {
-  .header { padding-block: 70px; }
-  .card__like-button { inline-size: 120px; }
+  .header {
+    padding-block: 70px;
+  }
+
+  .card__like-button {
+    inline-size: 120px;
+  }
+
   .footer__button {
     flex-direction: column;
     inline-size: 100%;
     block-size: auto;
     padding: 12px;
   }
-  .footer__button svg { width: 24px; height: 24px; }
+
+  .footer__button svg {
+    width: 24px;
+    height: 24px;
+  }
 }
